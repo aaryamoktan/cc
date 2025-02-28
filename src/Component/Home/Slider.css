@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1024px)
+{
+.upperClass{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+   
+  
+}
+.upperClass .upperRight{
+    position:relative;
+    width:50%;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+.upperClass .upperRight h1{
+    position:relative;
+    font-size: 80px;
+}
+.upperClass .upperRight h5{
+    position: relative;
+    margin-top: 50px;
+    line-height: 2;
+    color: rgb(113, 112, 112);
+}
+ .upperLeft{
+    position:relative;
+    width:50%;
+    height:20vh;  
+}
+.upperLeft img{
+    position:relative;
+    margin-left: 5%;
+    width:90%;
+    height:100vh;
+    z-index: 1;
+}
+.mim{
+    position:relative;
+    width:100%;
+    height:30vh;
+   margin-top:-10%;
+   display: flex;
+    background:rgb(73, 73, 235);
+}
+.mim .event{
+    position:relative;
+    width:20%;
+    margin-left:100px;
+    margin-top: 10px;
+    height:100%;
+    text-align: center;
+    color:white;
+}
+.mim .event h2{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.mim .event h5{
+    font-family: sans-serif;
+    font-family: 20px;
+    margin-top: 20px;
+}
+.mim .event2{
+    position:relative;
+    width:20%;
+    margin-left: 60px;
+    margin-top: 10px;
+    color:white;
+    height:100%;
+    text-align: center;
+}
+.mim .event2 h2{
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+.mim .event2 h5{
+    font-family: sans-serif;
+    font-family: 20px;
+    margin-top: 20px;
+}}
+@media only screen and (max-width: 700px){
+    .upperClass{
+        position:relative;
+        width:100%;
+        height:auto;
+    }
+    .upperRight{
+        position:relative;
+        width:100%;
+        margin-top: 200px;
+        margin: auto;
+        height:auto;
+        text-align: center;
+    }
+    .upperRight h1{
+        position: relative;
+        width:70%;
+        top: 40px;
+        margin: auto;
+        font-size: 40px;
+    }
+    .upperRight h5{
+        position:relative;
+        width:80%;
+        left: 15%;
+        text-align: start;
+        margin-top:80px
+    }
+    .upperClass .upperLeft{
+        position:relative;
+        width:100%;
+        margin-top: 50px;
+    }
+    .upperLeft img{
+        position: relative;
+        width:80%;
+        left: 10%;;
+    }
+    .mim{
+        position:relative;
+        width:100%;
+        height:auto;
+        margin-top: 50px;
+    }
+    .mim .event{
+        position:relative;
+        width:70%;
+        height:auto;
+        margin-top: 50px;
+        left: 15%;
+       text-align: center;
+    }
+    .mim .event2{
+        position:relative;
+        width:70%;
+        margin-top: 90px;
+        height:auto;
+        text-align: center;
+        left: 15%;
+        
+    }
+    .mim .event .e{
+        color:blue;
+        font-size: 80px;
+    }
+    .mim .event2 .e{
+        color:blue;
+        font-size: 80px;
+    }
+    .mim .event h2{
+        color:black;
+        font-family: sans-serif;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    .mim .event h5{
+        position:relative;
+        margin-top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .mim .event2 h2{
+        color:black;
+        font-family: sans-serif;
+        font-weight: bolder;
+        margin-top: 40px;
+    }
+    .mim .event2 h5{
+        position:relative;
+        margin-top: 15px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

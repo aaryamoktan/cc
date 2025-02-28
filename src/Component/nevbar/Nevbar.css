@@ -1,0 +1,174 @@
+@media only screen and (min-width: 1024px)
+{
+.nevbarContainer{
+    position:relative;
+    width:100%;
+    height:20vh;
+    color:rgb(108, 107, 107)
+}
+.nevbarContainer .nevbarInside{
+    position:relative;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+.nevbarContainer .nevbarInside .logo{
+    position: relative;
+    width:15%;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+.nevbarContainer .nevbarInside .logo img{
+    position: relative;
+    width:70%;
+}
+.nevbarContainer .nevbarInside .nevigation-web{
+    position:relative;
+    width:50%;
+    height:15vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:rgb(113, 113, 254);
+    clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0% 100%, 10% 100px);
+}
+.nevbarContainer .nevbarInside .nevigation-web ul{
+    position:relative;
+    list-style: none;
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nevbarContainer .nevbarInside .nevigation-web li{
+    position:relative;
+    color:white;
+    font-size: 20px;
+   
+
+}
+
+.nevbarContainer .nevbarInside .nevigation-web a{
+    position:relative;
+    text-decoration: none;
+    color: rgb(245, 242, 242);
+}
+.nevbarContainer .nevbarInside .nevigation-web a:hover{
+    position:relative;
+    text-decoration: none;
+    color: rgb(10, 29, 247);
+    text-transform: uppercase();
+}
+.nevbarContainer .nevbarInside .nevigation-mobile{
+    position:relative;
+    width:50%;
+    height:15vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    background:rgb(113, 113, 254);
+    clip-path: polygon(0px 0%, 100% 0%, 100% 100%, 0% 100%, 10% 100px);
+}
+.nevbarContainer .nevbarInside .nevigation-mobile ul{
+    position:relative;
+    list-style: none;
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nevbarContainer .nevbarInside .nevigation-mobile li{
+    position:relative;
+    color:white;
+    font-size: 20px;
+}
+
+.nevbarContainer .nevbarInside .nevigation-mobile a{
+    position:relative;
+    text-decoration: none;
+    color: white;
+}
+.nevbarContainer .nevbarInside .nevigation-mobile a:hover{
+    position:relative;
+    text-decoration: none;
+    color: rgb(10, 29, 247);
+    text-transform: uppercase();
+}
+p{
+    display:none;
+}
+}
+@media only screen and (max-width: 700px){
+   
+    .nevbarContainer{
+        position:relative;
+        width:100%;
+        height:20vh;
+        color:rgb(108, 107, 107)
+    }
+    .nevbarContainer .nevbarInside{
+        position:absolute;
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content:  space-around;
+        align-items: center;
+    }
+    .nevbarContainer .nevbarInside .logo{
+        position: relative;
+        width:15%;
+    left: 20px;
+        margin-top: -20px;
+    }
+    .nevbarContainer .nevbarInside .nevigation-web ul{
+      position:relative;
+      top:100px;
+    
+      width:100%;
+      z-index: 1;
+      left: -10%;
+      right: 0;
+      display: flex;
+      gap:20px;
+      background:black;
+      color:white;
+      flex-direction: column;
+      list-style: none;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      overflow: hidden;
+     
+     }
+     .nevbarContainer .nevbarInside .nevigation-web a{
+        text-decoration: none;
+        color:white;
+
+     }
+     .nevbarContainer .nevbarInside .nevigation-mobile li{
+        padding:0px;
+        display: none;
+     }
+    p{
+        display:block;
+        width:30px;
+      
+    }
+    .nevbarContainer .nevbarInside .nevigation-web{
+        width:70%;
+        margin: center;
+    }
+    .nevbarContainer .nevbarInside .logo{
+        position: relative;
+        width:30%;
+        margin-top: -20px;
+    }
+    .nevbarContainer .nevbarInside .logo img{
+        position: relative;
+        width:70%;
+    }
+}
