@@ -83,3 +83,95 @@
 }
 
 }
+@media only screen and (max-width: 700px){
+    .topContainer{
+        position:relative;
+        width:100%;
+        height:auto;
+        margin-top: 50px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap:50px;
+        align-items: center;
+    }
+    .topContainer .topLeft{
+        position:relative;
+        width:80%;
+        text-align: center;
+       
+    }
+    .topLeft h3{
+        position: relative;
+        margin-top: 20px;
+        font-size:100px;
+        color:rgb(97, 97, 224);
+    }
+    .topLeft h6{
+        position: relative;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        letter-spacing: 3px;
+        margin-top: 50px;
+        font-size: 20px;
+        color:rgb(97, 97, 224);
+    }
+    .topLeft h2{
+        position:relative;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+        margin-top: 50px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+    }
+    .topLeft h7{
+        position:relative;
+        font-size: 20px;
+        text-align: start;
+        margin-top: 50px;
+        font-family: sans-serif;
+        color:rgb(43, 43, 43);
+    }
+    .topLeft .topLeftInner {
+        position: relative;
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        margin-top:100px;
+        justify-content: space-around;
+        align-items: center;
+        gap:20px;
+    
+    }
+    .topLeftInner .Experince{
+        position:relative;
+        width:100%;
+        text-align: center;
+    }
+    .Experince h5{
+        position:relative;
+        width:100%;
+        padding:10px;
+        background:rgb(97, 97, 224);
+        border-radius: 30px;
+        color:white;
+        font-size: 25px;
+    }
+    .Experince h8{
+        position:relative;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        color:rgb(69, 69, 236);
+    }
+    .topRight{
+        position:relative;
+        position:relative;
+        width:100%;
+        margin-top: 50px;
+    }
+    .topRight img{
+        position: relative;
+        width:100%;
+    }
+    
+}

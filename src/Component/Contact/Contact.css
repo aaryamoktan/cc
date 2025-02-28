@@ -1,0 +1,208 @@
+@media only screen and (min-width: 1024px)
+{
+    .contactContainer{
+        position:relative;
+        width:100%;
+        margin-top: 100px;
+        height:auto;
+    }
+    .contactContainer .contactinner{
+        position:relative;
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactContainer .inner1{
+        position:relative;
+        width:50%;
+        margin-left: 100px;
+    }
+    .inner1 img{
+        position:relative;
+        width:150px;
+    }
+    .inner1 h4{
+        position:relative;
+        letter-spacing: 7px;
+        margin-top: 50px;
+        color:rgb(120, 120, 233);
+        font-size: 25px;
+    }
+    .inner1 h1{
+        position:relative;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        color:black;
+    }
+    .inner1 .inner11{
+        position: relative;
+        display:flex;
+        gap:10px;
+    }
+    .inner11 h4{
+        position:relative;
+        font-size: 50px;
+       
+    }
+    .inner11 .h4{
+        position:relative;
+        font-size: 20px;
+        color:black;
+        margin-top: 70px;
+    }
+    .inner2{
+        position:relative;
+        width: 40%;
+        
+        height:auto;
+        box-shadow: 1px 1px 20px rgb(81, 80, 80);
+        display:flex;
+        justify-content: center;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    .inner2 h1{
+        position:relative;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    .inner2 label{
+        position:relative;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .inner2 input{
+        position:relative;
+        width:60%;
+        height: 5vh;
+        margin-left: 15%;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    .inner2 textarea{
+        position:relative;
+        width:60%;
+        height: 25vh;
+        margin-left: 15%;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    .inner2 button{
+        position:relative;
+        width:30%;
+        margin-top: 30px;
+        margin-left: 100px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 700px)
+{
+    .contactContainer{
+        position:relative;
+        width:100%;
+        margin-top: 100px;
+        height:auto;
+    }
+    .contactContainer .contactinner{
+        position:relative;
+        width:100%;
+        height:auto;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactContainer .inner1{
+        position:relative;
+        width:100%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .inner1 img{
+        position:relative;
+        width:150px;
+    }
+    .inner1 h4{
+        position:relative;
+        letter-spacing: 7px;
+        margin-top: 50px;
+        color:rgb(120, 120, 233);
+        font-size: 25px;
+    }
+    .inner1 h1{
+        position:relative;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: 4px;
+        font-weight: bolder;
+        color:black;
+     
+    }
+    .inner1 .inner11{
+        position: relative;
+        display:flex;
+        justify-content: center;
+        text-align: center;
+        gap:10px;
+    }
+    .inner11 h4{
+        position:relative;
+        font-size: 50px;
+       
+    }
+    .inner11 .h4{
+        position:relative;
+        font-size: 20px;
+        color:black;
+        margin-top: 70px;
+    }
+    .inner2{
+        position:relative;
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 5%;
+        height:auto;
+        box-shadow: 1px 1px 20px rgb(81, 80, 80);
+        display:flex;
+        justify-content: center;
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    .inner2 h1{
+        position:relative;
+        margin-top: 80px;
+        margin-left: 80px;
+    }
+    .inner2 label{
+        position:relative;
+        margin-left: 15%;
+        margin-top: 20px;
+    }
+    .inner2 input{
+        position:relative;
+        width:60%;
+        height: 5vh;
+        margin-left: 15%;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    .inner2 textarea{
+        position:relative;
+        width:60%;
+        height: 25vh;
+        margin-left: 15%;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
+    .inner2 button{
+        position:relative;
+        width:30%;
+        margin-top: 30px;
+        margin-left: 100px;
+        border-radius: 20px;
+        margin-bottom: 40px;
+    }
+}
