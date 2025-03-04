@@ -1,5 +1,10 @@
 import React from 'react'
 import "./Lower.css"
+import img from "./2d.jpg"
+import img2 from "./cup.png"
+import img3 from "./Direy.png"
+import img4 from "./hoodue.jpg"
+import img5 from "./idcard.jpg"
 const Lower = () => {
   return (
     <>
@@ -16,6 +21,26 @@ const Lower = () => {
                 </div>
                 <div className='img'>
                 <img src="https://uniformtailor.in/image/cache/catalog/data/polo-t-shirts/UET001/economy-dri-fit-polo-t-shirts-logo-printed-navy-270x360.png" alt="workimage"/>
+                
+                </div>
+                <div className='img'>
+                <img src={img}/>
+                
+                </div>
+                <div className='img'>
+                <img src={img2}/>
+                
+                </div>
+                <div className='img'>
+                <img src={img3}/>
+                
+                </div>
+                <div className='img'>
+                <img src={img4}/>
+                
+                </div>
+                <div className='img'>
+                <img src={img5}/>
                 
                 </div>
             </div>

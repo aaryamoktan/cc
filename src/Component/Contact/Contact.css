@@ -139,25 +139,26 @@
         letter-spacing: 4px;
         font-weight: bolder;
         color:black;
-     
     }
     .inner1 .inner11{
         position: relative;
         display:flex;
         justify-content: center;
         text-align: center;
-        gap:10px;
+        gap:0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .inner11 h4{
         position:relative;
-        font-size: 50px;
+        font-size: 30px;
        
     }
     .inner11 .h4{
         position:relative;
-        font-size: 20px;
+        font-size: 15px;
         color:black;
-        margin-top: 70px;
+        margin-top: 65px;
     }
     .inner2{
         position:relative;

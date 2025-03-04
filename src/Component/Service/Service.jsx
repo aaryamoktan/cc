@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Service.css"
+import Servicetop from './Servicetop'
 import img from "./cup.png"
 import img1 from "./Direy.png"
 import img2 from "./hoodue.jpg"
@@ -12,6 +13,7 @@ import img8 from "./bussiness.jpg"
 const Service = () => {
   return (
     <>
+    <Servicetop/>
     <div className='Ourservice'>
       <h1>
       Our Business Services
