@@ -5,6 +5,7 @@ import img2 from "./cid.png"
 import img3 from "./ill.png"
 import img4 from "./mk.png"
 import img5 from "./pp.png"
+import img6 from "./md.png"
 import { GiBestialFangs } from "react-icons/gi";
 const RecenP = () => {
     return (
@@ -15,7 +16,7 @@ const RecenP = () => {
                 <h2>Our recent creative projects</h2>
                 <h6>Let’s check some of our perfect projects.</h6>
                 <div className='imgs'>
-                    <img src="https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?cs=srgb&dl=pexels-wendywei-1190297.jpg&fm=jpg" alt="img" />
+                    <img src={img6} alt="img" />
 
                 </div>
                 <div className='divexp'>
@@ -62,6 +63,19 @@ const RecenP = () => {
                 </div>
                 <div className='aboutin'>
                     <button>Let’s Start</button>
+                </div>
+            </div>
+            <div className='aboutmodel'>
+                <div className='model1'>
+                    <img src={img6} alt="img of model"/>
+                </div>
+                <div className='modeldesc'>
+                    <h5><button>WHAT WE DO?</button></h5>
+                    <h1>Our Mission,
+Values And Goal</h1>
+<h7>"I should be incapable of drawing a single stroke at the
+present moment; and yet I feel that I never was a greater
+artist than now. When, while the love”</h7>
                 </div>
             </div>
         </>
