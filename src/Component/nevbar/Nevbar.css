@@ -142,12 +142,10 @@ p{
      text-align: center;
       align-items: center;
       overflow: hidden;
-     
      }
      .nevbarContainer .nevbarInside .nevigation-web a{
         text-decoration: none;
         color:white;
-
      }
      .nevbarContainer .nevbarInside .nevigation-mobile li{
         padding:0px;
